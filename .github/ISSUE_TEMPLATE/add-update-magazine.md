@@ -9,12 +9,12 @@ assignees: ''
 Edit the data object below to add or update a magazine entry in the index.  Add your information in between the quotes and deleted unused fields.  If you are confused as to what is wanted, look at some of the issues already posted.  It's okay if you don't have complete information.  Just enter what you know.  Don't worry too much about syntax errors.  I'll clean up any problems.
 ```
 {
-  magazine:""
-  volume:""
-  number:""
-  issue:""
-  month:""
-  url:""
+  magazine:"",
+  volume:"",
+  number:"",
+  issue:"",
+  month:"",
+  url:"",
   tableOfContents:
   {[
     {article:"", author:"", page:"", url:"", blurb:"", tags:"tag1, tag2, tag3" },
