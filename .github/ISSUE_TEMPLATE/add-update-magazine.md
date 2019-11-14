@@ -6,7 +6,7 @@ labels: ''
 assignees: ''
 
 ---
-Edit the data object below to add or update a magazine entry in the index.  Add your information in between the quotes and deleted unused fields.  If you are confused as to what is wanted, look at some of the issues already posted.  It's okay if you don't have complete information.  Just enter what you know.  Don't worry too much about syntax errors.  I'll clean up any problems.
+Edit the data object below to add or update a magazine entry in the index.  Add your information between the quotes and deleted unused fields.  If you are confused as to what is wanted, look at some of the issues already posted.  It's okay if you don't have complete information.  Just enter what you know.  Don't worry too much about syntax errors.  I'll clean up any problems.
 ```
 {
   magazine:"",
@@ -14,6 +14,7 @@ Edit the data object below to add or update a magazine entry in the index.  Add 
   number:"",
   issue:"",
   month:"",
+  year:"",
   url:"",
   tableOfContents:
   {[
