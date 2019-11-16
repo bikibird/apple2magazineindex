@@ -17,7 +17,10 @@ Edit the data object below to add or update a magazine entry in the index.  Add 
   year:"",
   url:"",
   tableOfContents:
-  {[
+  [
+    {article:"", author:"", page:"", url:"", blurb:"", tags:"tag1, tag2, tag3" },
+    {article:"", author:"", page:"", url:"", blurb:"", tags:"tag1, tag2, tag3" },
+    {article:"", author:"", page:"", url:"", blurb:"", tags:"tag1, tag2, tag3" },
     {article:"", author:"", page:"", url:"", blurb:"", tags:"tag1, tag2, tag3" },
     {article:"", author:"", page:"", url:"", blurb:"", tags:"tag1, tag2, tag3" },
     {article:"", author:"", page:"", url:"", blurb:"", tags:"tag1, tag2, tag3" },
@@ -43,7 +46,7 @@ Edit the data object below to add or update a magazine entry in the index.  Add 
     {article:"", author:"", page:"", url:"", blurb:"", tags:"tag1, tag2, tag3" },
     {article:"", author:"", page:"", url:"", blurb:"", tags:"tag1, tag2, tag3" },
     {article:"", author:"", page:"", url:"", blurb:"", tags:"tag1, tag2, tag3" }
-  ]}
+  ]
 }
 ```
 Thank you for contributing to this project! Requests will be processed in the order they are received.  I intend to update the index at least weekly.
