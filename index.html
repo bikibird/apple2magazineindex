@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.23.1/slimselect.min.css"> 
+  <link rel="stylesheet" href="apple2.css">
+  <title>Apple II Magazine Index</title>
+</head>
+
+<body>
+    
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-success sticky-top">
+    <a class="text-decoration-none text-white-50 small " href="index.html"><i>Apple II<br>Magazine Index</i></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+	  <div class="collapse navbar-collapse" id="navbarToggler">
+
+        <select hidden id="searchSelector" class="m-1 ml-3"></select>
+        <select hidden id="magazineSelector" class="m-1"></select>
+        <select hidden id="articleSelector" class="m-1"></select>
+        <select hidden id="authorSelector" class="m-1"></select>
+        <select hidden id="subjectSelector" class="m-1"></select>
+       
+     </div>   
+ 
+  </nav>
+
+  <section ><div id="results" class="container"></div></section>
+  <section class="jumbotron mt-4 bg-jumbotron">
+    <div class="container">
+      <p class="lead">Welcome to the Apple II Magazine Index, where you can search for articles from your favorite Apple II oriented magazines from back in the day.  Links to PDFs are provided if available.</p>
+	  <p>If you have old magazines related to the Apple II, please consider scanning and preserving them on <a href="https://archive.org/details/magazine_rack?and%5B%5D=apple+II&sin=">archive.org</a>. This history is too important to lose.</p>
+	  <p>Are your magazines missing from this index?  You can fix that by opening an issue on <a href="https://github.com/bikibird/AppleIIMagazineIndex/issues">github</a> to add bibliographic data.</p>
+	  <p>Thanks, and enjoy the nostalgia.</p>
+    </div>
+  </section>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slim-select/1.23.1/slimselect.min.js"></script>
+  <script src="data.js"></script>	
+	<script src="apple2.js"></script>	
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  
+
+</body>
+
+</html>

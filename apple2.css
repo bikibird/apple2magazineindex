@@ -1,0 +1,12 @@
+.bg-jumbotron{background-color: rgba(92, 184, 92, 0.25); }
+.ss-main .ss-single-selected, .ss-disabled {height: 36px;}
+div.toc div{display: block;}
+div.toc div span:first-of-type{
+	background-color: blueviolet;
+	float:left;
+	
+}
+div.toc div span:first-of-type + span{
+	background-color: orchid;
+	float: right;
+}
