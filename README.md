@@ -1,4 +1,4 @@
-# AppleIIMagazineIndex
+# Apple II Magazine Index
 This is the repository for a website which indexes Apple II magazines such as _II computing_, _Nibble_, _Call Apple_, and _Compute!'s Apple Applications_.  Visit the index [here](https://bikibird.github.io/apple2magazineindex/).
 
 If you have old magazines related to the Apple II, please consider scanning and preserving them on archive.org. This history is too important to lose.
