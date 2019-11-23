@@ -41,7 +41,7 @@ Edit the data object below to add or update a magazine entry in the index.  Add 
 		{title:"", author:{first:"",last:""}, page:{first:"",last:""}, url:"", annotation:"", subject:"sub1/sub2/etc" },
 		{title:"", author:{first:"",last:""}, page:{first:"",last:""}, url:"", annotation:"", subject:"sub1/sub2/etc" },
 		{title:"", author:{first:"",last:""}, page:{first:"",last:""}, url:"", annotation:"", subject:"sub1/sub2/etc" },
-		{title:"", author:{first:"",last:""}, page:{first:"",last:""}, url:"", annotation:"", subject:"sub1/sub2/etc" },
+		{title:"", author:{first:"",last:""}, page:{first:"",last:""}, url:"", annotation:"", subject:"sub1/sub2/etc" }
 	]
 }
 ```
